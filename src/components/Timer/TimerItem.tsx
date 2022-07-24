@@ -13,7 +13,7 @@ const TimerItem: FC<TimerItemProps> = ({ children, caption, value }) => {
       <p className='timer__value'>{value}</p>
       <p className='timer__caption'>
         {caption}
-        {children && <p> {children} </p> }
+        {children && <span> {children} </span> }
       </p>
     </BlockFlex>
   );
