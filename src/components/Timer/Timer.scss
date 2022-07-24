@@ -1,0 +1,42 @@
+.timer {
+  gap: 10px;
+  align-items: flex-start;
+
+  font-family: var(--headersFont);
+  color: var(--secondaryColor);
+  letter-spacing: 0.04em;
+
+  &__item {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__dots {
+    padding-top: 14px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  &__value {
+    padding: 11px 15.5px;
+    background-color: var(--white);
+    box-shadow: 0px 5px 30px rgba(215, 211, 225, 0.5);
+    border-radius: 16px;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--secondaryAccentColor);
+  }
+
+  &__caption {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    & p {
+      color: var(--tetriaryColor);
+    }
+  }
+}
