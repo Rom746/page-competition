@@ -17,3 +17,12 @@ export interface ButtonProps extends IChildClass {
 export interface AccentTextProps extends IChild{
   type?: 'primary' | 'secondary';
 }
+
+export interface AccentTitleProps extends IChild{
+  type: 'need' | 'plan' | 'diplom';
+}
+
+export interface BenefitItemProps extends IChild {
+  src: string;
+  text: string;
+}

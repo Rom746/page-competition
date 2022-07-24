@@ -4,6 +4,10 @@
     height: 100%;
 }
 
+.App {
+  position: relative;
+}
+
 body {
     font-family: var(--baseFont);
     font-style: normal;
@@ -27,9 +31,9 @@ h1 {
 }
 
 h2 {
-
     font-size: 32px;
     line-height: 44px;
+    text-align: center;
 }
 
 h1,

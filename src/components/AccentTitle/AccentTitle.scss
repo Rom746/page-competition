@@ -1,0 +1,9 @@
+.accent-title {
+  position: relative;
+
+  & span {
+    position: absolute;
+    left: 0;
+    top: 100%;
+  }
+}

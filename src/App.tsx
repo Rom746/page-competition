@@ -1,3 +1,4 @@
+import Benefit from 'components/Benefit';
 import About from 'container/About';
 import Header from 'container/Header';
 import Hero from 'container/Hero';
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Benefit />
     </div>
   );
 }
