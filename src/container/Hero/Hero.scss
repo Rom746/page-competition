@@ -1,0 +1,24 @@
+.hero {
+  padding-top: 328px;
+  padding-bottom: 60px;
+
+  &__title {
+    max-width: 650px;
+    padding-bottom: 40px;
+  }
+
+  &__text {
+    max-width: 570px;
+    padding-bottom: 60px;
+  }
+
+  &__image {
+    & img {
+      position: absolute;
+      top: -4px;
+      right: 0;
+      width: 900px;
+      height: 810px;
+    }
+  }
+}

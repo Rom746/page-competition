@@ -1,0 +1,33 @@
+.button {
+
+  padding: 18px 74px;
+
+  font-family: var(--baseFont);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: var(--white);
+
+  border-radius: 15px;
+  cursor: pointer;
+
+  &--main-primary {
+    background-color: var(--primaryAccentColor);
+  }
+  
+  &--main-secondary {
+    background-color: var(--tetriaryAccentColor);
+  }
+
+  &--additional {
+    padding: 9px 58px;
+    max-width: 180px;
+
+    font-weight: 400;
+    color: var(--secondaryColor);
+
+    background-color: var(--white);
+    border: 1px solid var(--secondaryColor);
+  }
+}

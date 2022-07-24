@@ -1,19 +1,20 @@
-import ButtonSecondary from 'components/ButtonSecondary/ButtonSecondary';
+import BlockFlex from 'components/BlockFlex';
+import Button from 'components/Button';
 import Logo from 'components/Logo';
 import React, { FC } from 'react';
 import './Header.scss';
 
 const Header: FC = () => {
-   return (
-       <header>
-            <div className="container">
-                <div className="header__menu">
-                    <Logo/>
-                    <ButtonSecondary> Войти </ButtonSecondary>
-                </div>
+    return (
+        <header className='header'>
+            <div className="header__container">
+                <BlockFlex className="header__menu">
+                    <Logo />
+                    <Button type='additional'> Войти </Button>
+                </BlockFlex>
             </div>
-       </header>
-   );
+        </header>
+    );
 };
 
 export default Header;

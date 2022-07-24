@@ -11,12 +11,11 @@ body {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.009em;
-
     color: var(--primaryColor);
 }
 
-.container {
-    max-width: 1140px;
+[class*="__container"] {
+    max-width: 1425px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
@@ -28,7 +27,7 @@ h1 {
 }
 
 h2 {
-   
+
     font-size: 32px;
     line-height: 44px;
 }
@@ -37,4 +36,5 @@ h1,
 h2 {
     font-family: var(--headersFont);
     font-weight: 700;
+    color: var(--secondaryColor);
 }

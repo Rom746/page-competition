@@ -1,12 +1,13 @@
 import Header from 'container/Header';
-import React from 'react';
+import Hero from 'container/Hero';
 
 import './style/App.scss';
 
 function App() {
   return (
     <div className="App">
-     <Header/>
+      <Header />
+      <Hero />
     </div>
   );
 }
