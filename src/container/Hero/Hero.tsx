@@ -4,6 +4,7 @@ import BlockFlex from 'components/BlockFlex';
 import Paragraph from 'components/Paragraph';
 import Button from 'components/Button';
 import './Hero.scss'
+import Timer from 'components/Timer';
 
 const Hero: FC = () => {
   return (
@@ -17,6 +18,7 @@ const Hero: FC = () => {
           </Paragraph>
           <BlockFlex className='hero__inner'>
             <Button className='hero__btn' type='main-primary'>Учавствовать</Button>
+            <Timer/>
           </BlockFlex>
         </div>
         <div className="hero__image">

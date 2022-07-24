@@ -21,4 +21,9 @@
       height: 810px;
     }
   }
+
+  &__inner {
+    gap: 60px;
+    align-items: flex-start;
+  }
 }
