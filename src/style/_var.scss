@@ -1,0 +1,22 @@
+// Breakpoint
+
+$breakpointA: 1110 + px;
+$breakpointB: 980 + px;
+$breakpointC: 768 + px;
+$breakpointD: 479 + px;
+
+
+// Colors
+
+:root {
+  --baseFont: 'Rubik', sans-serif;
+  --headersFont: 'Nunito', sans-serif;
+
+  --primaryColor: #4F5569;
+  --secondaryColor: #1F1D2A;
+  --primaryAccentColor: #14A76C;
+  --secondaryAccentColor: #FF652F;
+  --tetriaryAccentColor: #E02D05;
+
+  --white: #ffffff;
+}

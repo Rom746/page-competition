@@ -1,0 +1,11 @@
+@import './reset';
+@import './var';
+@import './fonts';
+@import './global';
+
+
+
+.App {
+    background-color: var(--secondary-color);
+    height: 100%;
+}
