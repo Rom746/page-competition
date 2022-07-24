@@ -1,0 +1,6 @@
+.accent-text {
+  font-weight: 700;
+  &--primary {
+    color: var(--primaryAccentColor);
+  }
+}

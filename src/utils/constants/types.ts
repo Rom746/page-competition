@@ -14,3 +14,6 @@ export interface ButtonProps extends IChildClass {
   type?: 'main-primary' | 'main-secondary' | 'additional';
 }
 
+export interface AccentTextProps extends IChild{
+  type?: 'primary' | 'secondary';
+}

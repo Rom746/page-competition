@@ -1,7 +1,6 @@
 import About from 'container/About';
 import Header from 'container/Header';
 import Hero from 'container/Hero';
-
 import './style/App.scss';
 
 function App() {
