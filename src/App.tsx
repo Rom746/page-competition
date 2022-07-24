@@ -1,4 +1,4 @@
-import Benefit from 'components/Benefit';
+import Benefit from 'container/Benefit';
 import About from 'container/About';
 import Header from 'container/Header';
 import Hero from 'container/Hero';
