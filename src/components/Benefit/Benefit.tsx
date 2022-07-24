@@ -4,6 +4,7 @@ import React, { FC } from 'react';
 import './Benefit.scss';
 import BenefitItem from './BenefitItem';
 import images from 'utils/constants/images'
+import AccentLink from 'components/AccentLink';
 
 const Benefit: FC = () => {
   const benefits = [
@@ -25,7 +26,7 @@ const Benefit: FC = () => {
     },
     {
       src: images.bn.email,
-      text: 'Бесплатный диплом на email — через 1 день после конкурса'
+      text: 'Бесплатный диплом на email — через 1 день после конкурса '
     }
   ];
 
@@ -37,10 +38,10 @@ const Benefit: FC = () => {
         </h2>
         <BlockFlex className='benefit__items'>
           {benefits.map(item =>
-            <BenefitItem src={item.src} text={item.text} key={item.text}/>
+            <BenefitItem src={item.src} text={item.text} key={item.text} />
           )}
-          <BenefitItem src={images.bn.vk} text='Публикация работ победителей во ВКонтакте.'> 
-            <a href="https://vk.com/"> Подписывайтесь! </a>
+          <BenefitItem src={images.bn.vk} text='Публикация работ победителей во ВКонтакте. '>
+            <AccentLink src='https://vk.com/' type='main-secondary'>Подписывайтесь! </AccentLink>
           </BenefitItem>
         </BlockFlex>
       </div>

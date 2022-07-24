@@ -1,0 +1,25 @@
+.link {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height:inherit;
+  letter-spacing: inherit;
+  text-decoration-line: underline;
+
+  &--main-primary,
+  &--additional-primary {
+    color: var(--primaryAccentColor);
+  }
+
+  &--main-secondary {
+    color: var(--secondaryAccentColor);
+  }
+
+  &--additional-primary,
+  &--additional-secondary {
+    font-weight: 700;
+  }
+
+  &--additional-secondary {
+    color: var(--white);
+  }
+}
