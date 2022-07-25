@@ -10,6 +10,7 @@ import vk from 'assets/benefist-vk.svg';
 import winne from 'assets/benefist-winne.svg';
 import linePlan from 'assets/line-plan-bg.svg';
 import certificate from 'assets/certificate.png';
+import headDiscount from 'assets/head-discount.svg';
 
 const images = {
   logo,
@@ -28,6 +29,7 @@ const images = {
   },
   linePlan,
   certificate,
+  headDiscount
 }
 
 export default images;
