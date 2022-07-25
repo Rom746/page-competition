@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import images from 'utils/constants/images'
+import images from 'utils/constants/images';
 import './Logo.scss'
 
 const Logo: FC = () => {

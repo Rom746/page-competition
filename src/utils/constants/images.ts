@@ -12,6 +12,7 @@ import linePlan from 'assets/line-plan-bg.svg';
 import certificate from 'assets/certificate.png';
 import headDiscount from 'assets/head-discount.svg';
 import planes from 'assets/planes.svg';
+import btnOpen from 'assets/open-btn.svg';
 
 const images = {
   logo,
@@ -31,7 +32,8 @@ const images = {
   linePlan,
   certificate,
   headDiscount,
-  planes
+  planes,
+  btnOpen
 }
 
 export default images;

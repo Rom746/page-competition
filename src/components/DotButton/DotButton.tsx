@@ -1,12 +1,14 @@
 import React, { FC } from 'react';
 import { IChildClass } from 'utils/constants/types';
+import join from 'utils/joinClasses';
+import './DotButton.scss';
 
-const Dot: FC<IChildClass> = () => {
-   return (
-       <div>
-
-       </div>
-   );
+const DotButton: FC<IChildClass> = ({ children, className }) => {
+  return (
+    <button className={join('dot-btn', className)}>
+      { children }
+    </button>
+  );
 };
 
-export default Dot;
+export default DotButton;
