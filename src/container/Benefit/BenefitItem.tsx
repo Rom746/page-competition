@@ -8,7 +8,7 @@ const BenefitItem: FC<BenefitItemProps> = ({ src, text, children }) => {
       <div className="benefit__image">
         <img src={src} alt="benefitimage" />
       </div>
-      <Paragraph className="benefit__text" type='primary'>
+      <Paragraph className="benefit__text" type='tetriary'>
         {text}
         {children && <span>{children}</span>}
       </Paragraph>

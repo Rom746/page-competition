@@ -1,0 +1,57 @@
+.plan {
+
+  background-image: url('../../assets/sky-bg.svg');
+
+  padding-top: 40px;
+  padding-bottom: 206px;
+
+  &__title {
+    padding-bottom: 87px;
+  }
+
+  &__content {
+    padding-left: 92px;
+    padding-top: 45px;
+    position: relative;
+  }
+
+  &__items {}
+
+  &__item {
+    max-width: 345px;
+    gap: 40px;
+    align-items: flex-start;
+
+    position: absolute;
+
+    &:nth-child(1) {
+      top: 0;
+      left: 24px;
+    }
+
+    &:nth-child(2) {
+      top: 203px;
+      left: 491px;
+    }
+
+    &:nth-child(3) {
+      top: 419px;
+      left: 971px;
+      max-width: 388px;
+    }
+
+  }
+
+  &__dot {
+    flex-shrink: 0;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--secondaryAccentColor);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+  }
+}

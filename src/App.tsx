@@ -2,6 +2,7 @@ import Benefit from 'container/Benefit';
 import About from 'container/About';
 import Header from 'container/Header';
 import Hero from 'container/Hero';
+import Plan from 'container/Plan';
 import './style/App.scss';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <About />
       <Benefit />
+      <Plan />
     </div>
   );
 }

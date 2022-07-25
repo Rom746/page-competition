@@ -1,6 +1,10 @@
 .benefit {
   padding-bottom: 160px;
 
+  background-image: url('../../assets/waves-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
   &__title {
     padding-bottom: 58px;
   }
@@ -17,15 +21,10 @@
     padding: 20px 35px;
     box-shadow: 0px 5px 30px var(--primaryShadowColor);
     border-radius: 16px;
+    background-color: var(--white);
   }
 
   &__image {
     padding-bottom: 8px;
-  }
-
-  &__text {
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.04em;
   }
 }

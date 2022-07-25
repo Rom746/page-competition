@@ -7,7 +7,7 @@ export interface IChildClass extends IChild{
 }
 
 export interface ParagraphProps extends IChildClass {
-  type?: 'caption' | 'primary' | 'secondary';
+  type?: 'caption' | 'primary' | 'secondary' | 'tetriary';
 }
 
 export interface ButtonProps extends IChildClass {
@@ -32,3 +32,6 @@ export interface BenefitItemProps extends IChild {
   text: string;
 }
 
+export interface PlanItemProps extends IChild {
+  value: number;
+}

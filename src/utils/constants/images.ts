@@ -8,6 +8,7 @@ import gift from 'assets/benefist-gift.svg';
 import star from 'assets/benefist-star.svg';
 import vk from 'assets/benefist-vk.svg';
 import winne from 'assets/benefist-winne.svg';
+import linePlan from 'assets/line-plan-bg.svg';
 
 export default {
     logo,
@@ -19,7 +20,6 @@ export default {
       star,
       vk,
       winne
-    }
-
-    
+    },
+    linePlan,    
 };
