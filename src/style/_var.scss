@@ -1,12 +1,3 @@
-// Breakpoint
-
-$breakpointA: 1110 + px;
-$breakpointB: 980 + px;
-$breakpointC: 768 + px;
-$breakpointD: 479 + px;
-
-
-// Colors
 
 :root {
   --baseFont: 'Rubik', sans-serif;
@@ -15,11 +6,14 @@ $breakpointD: 479 + px;
   --primaryColor: #4F5569;
   --secondaryColor: #1F1D2A;
   --tetriaryColor: #9FA0A7;
+
   --primaryAccentColor: #14A76C;
-  --primaryAccentColor-a: rgba(25, 218, 140, 0.25);
   --secondaryAccentColor: #FF652F;
-  --tetriaryAccentColor: #E02D05;
-  --tetriaryAccentColor-a: rgba(218, 71, 25, 0.25);
+
+  --primaryButtonBg: var(--primaryAccentColor);
+  --primaryButtonShadow: rgba(25, 218, 140, 0.25);
+  --secondaryButtonBg: #E02D05;
+  --secondaryButtonShadow: rgba(218, 71, 25, 0.25);
 
   --primaryShadowColor: rgba(215, 211, 225, 0.5);
 

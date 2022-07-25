@@ -13,13 +13,13 @@
   cursor: pointer;
 
   &--main-primary {
-    background-color: var(--primaryAccentColor);
-    box-shadow: 0px 15px 30px var(--primaryAccentColor-a);
+    background-color: var(--primaryButtonBg);
+    box-shadow: 0px 15px 30px var(--primaryButtonShadow);
   }
 
   &--main-secondary {
-    background-color: var(--tetriaryAccentColor);
-    box-shadow: 0px 15px 30px var(--tetriaryAccentColor-a);
+    background-color: var(--secondaryButtonBg);
+    box-shadow: 0px 15px 30px var(--secondaryButtonShadow);
   }
 
   &--additional {
