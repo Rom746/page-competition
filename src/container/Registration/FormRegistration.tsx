@@ -2,13 +2,14 @@ import BlockFlex from 'components/BlockFlex';
 import Button from 'components/Button';
 import images from 'utils/constants/images';
 import React, { FC } from 'react';
+import Input from 'components/Input';
 
 const FormRegistration: FC = () => {
    return (
        <form className='registration__form'>
         <h2 className='registration__title'>Зарегистрируйтесь, чтобы участвовать</h2>
         <BlockFlex className='registration__inputs'>
-
+          <Input placeholder='ФИО ребёнка'/>
         </BlockFlex>
 
 

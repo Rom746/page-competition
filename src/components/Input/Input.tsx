@@ -1,11 +1,19 @@
 import React, { FC } from 'react';
+import './Input.scss';
 
-const Input: FC<> = () => {
-   return (
-       <input className='input paragraph'>
+interface InputProps {
+  placeholder?: string;
+  type?: 'text' | 'date' | 'email' | 'password';
+}
 
-       </input>
-   );
+const Input: FC<InputProps> = ({ placeholder, type }) => {
+  return (
+    <input
+      className='input paragraph'
+      placeholder={placeholder}
+      type={type || 'text'}
+    />
+  );
 };
 
 export default Input;
