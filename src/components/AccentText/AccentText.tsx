@@ -1,7 +1,11 @@
 import React, { FC } from 'react';
 import join from 'utils/joinClasses';
 import './AccentText.scss'
-import { AccentTextProps } from 'utils/constants/types';
+import { IChild } from 'utils/constants/types';
+
+interface AccentTextProps extends IChild{
+  type?: 'primary' | 'secondary';
+}
 
 const AccentText: FC<AccentTextProps> = ({ children, type }) => {
   return (

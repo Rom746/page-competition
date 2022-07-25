@@ -1,7 +1,11 @@
 import React, { FC } from 'react';
-import { ButtonProps } from 'utils/constants/types';
+import { IChildClass } from 'utils/constants/types';
 import join from 'utils/joinClasses';
 import './Button.scss';
+
+interface ButtonProps extends IChildClass {
+  type?: 'main-primary' | 'main-secondary' | 'additional';
+}
 
 const Button: FC<ButtonProps> = ({ children, className, type }) => {
   return (

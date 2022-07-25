@@ -1,7 +1,11 @@
 import React, { FC } from 'react';
 import './AccentTitle.scss'
 import images from 'utils/constants/images'
-import { AccentTitleProps } from 'utils/constants/types';
+import { IChild } from 'utils/constants/types';
+
+interface AccentTitleProps extends IChild{
+  type: 'need' | 'plan' | 'diplom';
+}
 
 const AccentTitle: FC<AccentTitleProps> = ({ children, type }) => {
   return (

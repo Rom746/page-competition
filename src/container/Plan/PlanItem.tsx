@@ -1,7 +1,11 @@
 import BlockFlex from 'components/BlockFlex';
 import Paragraph from 'components/Paragraph';
 import React, { FC } from 'react';
-import { PlanItemProps } from 'utils/constants/types';
+import { IChild } from 'utils/constants/types';
+
+interface PlanItemProps extends IChild {
+  value: number;
+}
 
 const PlanItem: FC<PlanItemProps> = ({ value, children }) => {
   return (

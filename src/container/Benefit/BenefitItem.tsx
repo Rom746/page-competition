@@ -1,6 +1,11 @@
 import Paragraph from 'components/Paragraph';
 import React, { FC } from 'react';
-import { BenefitItemProps } from 'utils/constants/types';
+import { IChild } from 'utils/constants/types';
+
+interface BenefitItemProps extends IChild {
+  src: string;
+  text: string;
+}
 
 const BenefitItem: FC<BenefitItemProps> = ({ src, text, children }) => {
   return (
