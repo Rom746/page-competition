@@ -1,10 +1,22 @@
 .registration {
 
+  padding-bottom: 200px;
+
   &__container {
     gap: 220px;
   }
 
   &__title {
+    padding-bottom: 50px;
+  }
+
+  &__inputs {
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+
+  &__check {
     padding-bottom: 50px;
   }
 
