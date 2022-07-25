@@ -31,7 +31,6 @@ const Certificate: FC = () => {
               </span>
             </Paragraph>
           </div>
-
           <div className='certificate__image'>
             <img src={images.certificate} alt='certificate' />
           </div>
