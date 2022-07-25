@@ -1,0 +1,35 @@
+.certificate {
+  margin-top: -37px;
+  margin-bottom: 44px;
+  padding-bottom: 156px;
+
+  background-image: url('../../assets/waves-bg-tw.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+
+  &__content {
+    gap: 240px;
+  }
+
+  &__inner {
+    max-width: 497px;
+  }
+
+  &__title {
+    padding-bottom: 27px;
+  }
+
+  &__text span:not(:last-child) {
+    display: block;
+    padding-bottom: 25px;
+  }
+
+  &__image {
+    max-width: 680px;
+    max-height: 480px;
+    & img {
+      max-width: 100%;
+    }
+  }
+}

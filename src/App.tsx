@@ -3,7 +3,9 @@ import About from 'container/About';
 import Header from 'container/Header';
 import Hero from 'container/Hero';
 import Plan from 'container/Plan';
+import Certificate from 'container/Certificate';
 import './style/App.scss';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <About />
       <Benefit />
       <Plan />
+      <Certificate />t
     </div>
   );
 }

@@ -9,17 +9,25 @@ import star from 'assets/benefist-star.svg';
 import vk from 'assets/benefist-vk.svg';
 import winne from 'assets/benefist-winne.svg';
 import linePlan from 'assets/line-plan-bg.svg';
+import certificate from 'assets/certificate.png';
 
-export default {
-    logo,
-    line: { plan, diplom, need },
-    bn: {
-      certification,
-      email,
-      gift,
-      star,
-      vk,
-      winne
-    },
-    linePlan,    
-};
+const images = {
+  logo,
+  line: { 
+    plan, 
+    diplom, 
+    need 
+  },
+  bn: {
+    certification,
+    email,
+    gift,
+    star,
+    vk,
+    winne
+  },
+  linePlan,
+  certificate,
+}
+
+export default images;
