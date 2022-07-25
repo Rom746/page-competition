@@ -15,8 +15,6 @@
     position: relative;
   }
 
-  &__items {}
-
   &__item {
     max-width: 345px;
     gap: 40px;
@@ -39,7 +37,6 @@
       left: 971px;
       max-width: 388px;
     }
-
   }
 
   &__dot {
