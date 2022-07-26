@@ -1,0 +1,13 @@
+.social-link {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: var(--white);
+
+  &--border {
+    border: 2px solid var(--white);
+    border-radius: 10px;
+    width: 39px;
+    height: 39px;
+  }
+}

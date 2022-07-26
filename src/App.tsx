@@ -8,6 +8,7 @@ import './style/App.scss';
 import Registration from 'container/Registration';
 import Faq from 'container/Faq';
 import Newsletter from 'container/Newsletter';
+import Footer from 'container/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Registration />
       <Faq />
       <Newsletter />
+      <Footer />
     </div>
   );
 }

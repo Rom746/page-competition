@@ -1,0 +1,31 @@
+.footer {
+  padding-top: 70px;
+  padding-bottom: 64px;
+
+  font-family: var(--headersFont);
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+
+  &__menu {
+    justify-content: flex-start;
+    gap: 200px;
+    padding-bottom: 27px;
+  }
+
+  &__copyright {
+    text-align: center;
+  }
+}
+
+
+.social-item {
+
+  &__title {
+    padding-bottom: 9px;
+  }
+
+  &__links {
+    gap: 21px;
+  }
+}

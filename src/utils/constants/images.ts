@@ -13,6 +13,10 @@ import certificate from 'assets/certificate.png';
 import headDiscount from 'assets/head-discount.svg';
 import planes from 'assets/planes.svg';
 import btnOpen from 'assets/open-btn.svg';
+import linkVk from 'assets/link-vk.svg';
+import linkOk from 'assets/link-ok.svg';
+import linkTg from 'assets/link-tg.svg';
+import linkDz from 'assets/link-dz.svg';
 
 const images = {
   logo,
@@ -33,7 +37,13 @@ const images = {
   certificate,
   headDiscount,
   planes,
-  btnOpen
+  btnOpen,
+  social: {
+    vk: linkVk,
+    ok: linkOk,
+    dz: linkDz,
+    tg: linkTg
+  }
 }
 
 export default images;
