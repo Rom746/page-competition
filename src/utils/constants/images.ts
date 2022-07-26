@@ -12,6 +12,7 @@ import linePlan from 'assets/line-plan-bg.svg';
 import certificate from 'assets/certificate.png';
 import headDiscount from 'assets/head-discount.svg';
 import planes from 'assets/planes.svg';
+import planePlan from 'assets/plane-plan.svg';
 import btnOpen from 'assets/open-btn.svg';
 import linkVk from 'assets/link-vk.svg';
 import linkOk from 'assets/link-ok.svg';
@@ -43,7 +44,8 @@ const images = {
     ok: linkOk,
     dz: linkDz,
     tg: linkTg
-  }
+  },
+  planePlan
 }
 
 export default images;

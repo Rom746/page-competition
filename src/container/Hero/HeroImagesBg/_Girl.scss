@@ -1,0 +1,40 @@
+.girl {
+  &__svg {
+    position: absolute;
+    left: 205px;
+    bottom: 0;
+  }
+
+  &__pencil {
+    animation-name: pencil;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+  }
+}
+
+@keyframes pencil {
+  10% {
+   
+    transform: rotate(65deg) translate(20px, -10px);
+  }
+  20% {
+    transform: rotate(50deg) translate(20px, -10px);
+  }
+  30% {
+    transform: rotate(60deg) translate(20px, -10px);
+  }
+  60% {
+    transform: rotate(-15deg) translate(-5px, -5px);
+  }
+  70% {
+    transform: rotate(-10deg) translate(-5px, 5px);
+  }
+  90% {
+    transform: rotate(30deg) translate(10px, 10px);
+  }
+}

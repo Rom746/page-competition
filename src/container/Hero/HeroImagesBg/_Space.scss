@@ -1,0 +1,197 @@
+.space {
+  animation-name: spaceAnimate;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+
+  &__svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  &__bg {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+  }
+
+  &_item {
+    animation-duration: .7s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    // animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+  }
+
+  &__rocket {
+    animation-name: rocketAnimate;
+  }
+
+  &__ball {
+    animation-name: ballAnimate;
+  }
+
+  &__plus {
+    animation-name: plusAnimate;
+  }
+
+  &__div {
+    animation-name: divAnimate;
+  }
+
+  &__frame {
+    animation-name: frameAnimate;
+  }
+
+  &__planet {
+    animation-name: planetAnimate;
+  }
+
+  &__planetLine {
+    animation-name: planetLineAnimate;
+  }
+
+  &__planetBig {
+    animation-name: planetBigAnimate;
+  }
+
+  &__lamp {
+    animation-name: lampAnimate;
+  }
+
+  &__clock {
+    animation-name: clockAnimate;
+    animation-direction: normal;
+  }
+
+  &__elephant {
+    animation-name: elephantAnimate;
+  }
+
+  &__plane {
+    animation-name: planeAnimate;
+  }
+
+  &__paints {
+    animation-name: paintsAnimate;
+    animation-direction: normal;
+    animation-delay: 2s;
+  }
+}
+
+
+
+@keyframes spaceAnimate {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes rocketAnimate {
+  0% {
+    transform: translatey(65px);
+  }
+}
+
+@keyframes ballAnimate {
+  0% {
+    transform: translatey(-60px);
+  }
+}
+
+@keyframes plusAnimate {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  70% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
+
+@keyframes divAnimate {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}
+
+@keyframes frameAnimate {
+  0% {
+    transform: rotate(-40deg) scale(0.1);
+  }
+}
+
+@keyframes planetAnimate {
+  0% {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes planetLineAnimate {
+  0% {
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes planetBigAnimate {
+  0% {
+    transform: translateX(-40px) translateY(30px);
+  }
+}
+
+@keyframes lampAnimate {
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+
+@keyframes clockAnimate {
+  0% {
+    transform: rotate(0deg) scale(0.8);
+  }
+
+  50% {
+    transform: rotate(-180deg) scale(1);
+  }
+
+  100% {
+    transform: rotate(-360deg) scale(0.8);
+  }
+}
+
+@keyframes elephantAnimate {
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes planeAnimate {
+  0% {
+    transform: rotate(45deg) scale(0.5);
+  }
+}
+
+@keyframes paintsAnimate {
+  100% {
+    transform: rotate(360deg);
+  }
+}

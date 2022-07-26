@@ -5,6 +5,8 @@ import Paragraph from 'components/Paragraph';
 import Button from 'components/Button';
 import './Hero.scss'
 import Timer from 'components/Timer';
+import HeroImagesBg from './HeroImagesBg';
+
 
 const Hero: FC = () => {
   return (
@@ -22,7 +24,7 @@ const Hero: FC = () => {
           </BlockFlex>
         </div>
         <div className="hero__image">
-          <img src={heroImage} alt="imagehero" />
+          <HeroImagesBg />
         </div>
       </BlockFlex>
 

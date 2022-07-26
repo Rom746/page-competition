@@ -1,7 +1,5 @@
 .plan {
-
   background-image: url('../../assets/sky-bg.svg');
-
   padding-top: 40px;
   padding-bottom: 206px;
 
@@ -19,23 +17,33 @@
     max-width: 345px;
     gap: 40px;
     align-items: flex-start;
-
     position: absolute;
+    opacity: 0;
 
     &:nth-child(1) {
       top: 0;
       left: 24px;
+      animation-delay: .6s;
     }
 
     &:nth-child(2) {
       top: 203px;
       left: 491px;
+      animation-delay: 1s;
     }
 
     &:nth-child(3) {
       top: 419px;
       left: 971px;
       max-width: 388px;
+      animation-delay: 1.8s;
+    }
+
+    &--animate {
+      animation-name: item-opacity;
+      animation-fill-mode: both;
+      animation-timing-function: linear;
+      animation-duration: 1s;
     }
   }
 
@@ -46,9 +54,74 @@
     height: 80px;
     border-radius: 50%;
     background-color: var(--secondaryAccentColor);
-    color: var(--white);
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
+    color: var(--white);
+  }
+
+  &__plane {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    &--animate {
+      animation-name: plane;
+      animation-duration: 2s;
+      animation-fill-mode: both;
+      animation-timing-function: linear;
+    }
+  }
+}
+
+@keyframes item-opacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes plane {
+  0% {
+    opacity: 1;
+    transform: translate(-68px, -31px) rotate(5deg);
+  }
+
+  15% {
+    transform: translate(119px, 16px) rotate(10deg);
+  }
+
+  30% {
+    transform: translate(119px, 16px) rotate(20deg);
+  }
+
+  45% {
+    transform: translate(546px, 224px) rotate(25deg);
+  }
+
+  60% {
+    transform: translate(855px, 378px) rotate(20deg);
+  }
+
+  70% {
+    transform: translate(1040px, 432px) rotate(3deg);
+  }
+
+  80% {
+    transform: translate(1189px, 438px) rotate(-4deg);
+  }
+
+  90% {
+    transform: translate(1405px, 380px) rotate(-8deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(1405px, 380px) rotate(-8deg);
+    opacity: 0;
   }
 }

@@ -10,7 +10,7 @@ const Header: FC = () => {
             <div className="header__container">
                 <BlockFlex className="header__menu">
                     <Logo />
-                    <Button type='additional'> Войти </Button>
+                    <Button className='header__button' type='additional'> Войти </Button>
                 </BlockFlex>
             </div>
         </header>
