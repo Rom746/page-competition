@@ -11,7 +11,7 @@ interface PlanItemProps extends IChildClass {
 const PlanItem: FC<PlanItemProps> = ({ value, children, className }) => {
   return (
     <BlockFlex className={join('plan__item','', className)}>
-      <BlockFlex className="plan__dot">{value}</BlockFlex>
+      <BlockFlex className='plan__dot'>{value}</BlockFlex>
       <Paragraph className='plan__text' type='tetriary'>
         {children}
       </Paragraph>

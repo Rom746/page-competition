@@ -14,7 +14,7 @@ const SocialLink: FC<SocialLinkProps> = ({ src, type, icon }) => {
       className={join('social-link', '', type)}
       href={src}
     >
-      <img src={icon} alt="icon"/>
+      <img src={icon} alt='icon'/>
     </a>
   );
 };

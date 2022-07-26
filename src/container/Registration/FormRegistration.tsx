@@ -20,7 +20,7 @@ const FormRegistration: FC = () => {
 
       <BlockFlex className='registration__buttons'>
         <Button className='registration__button' type='main-secondary'>Учавствовать</Button>
-        <img src={images.planes} alt="Planes" />
+        <img src={images.planes} alt='Planes' />
       </BlockFlex>
     </form>
   );

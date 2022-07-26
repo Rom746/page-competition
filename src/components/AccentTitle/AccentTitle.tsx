@@ -1,9 +1,9 @@
-import React, { FC } from 'react';
-import './AccentTitle.scss'
-import images from 'utils/constants/images'
+import { FC } from 'react';
 import { IChild } from 'utils/constants/types';
+import images from 'utils/constants/images';
+import './AccentTitle.scss';
 
-interface AccentTitleProps extends IChild{
+interface AccentTitleProps extends IChild {
   type: 'need' | 'plan' | 'diplom';
 }
 
@@ -12,7 +12,7 @@ const AccentTitle: FC<AccentTitleProps> = ({ children, type }) => {
     <span className='accent-title'>
       {children}
       <span>
-        <img src={images.line[type]} alt='line' />
+        <img src={images.line[type]} alt='line'/>
       </span>
     </span>
   );

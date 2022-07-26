@@ -1,3 +1,3 @@
-import AccentLink from "./AccentLink";
+import AccentLink from './AccentLink';
 
 export default AccentLink;

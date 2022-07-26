@@ -7,8 +7,8 @@ import './Header.scss';
 const Header: FC = () => {
     return (
         <header className='header'>
-            <div className="header__container">
-                <BlockFlex className="header__menu">
+            <div className='header__container'>
+                <BlockFlex className='header__menu'>
                     <Logo />
                     <Button className='header__button' type='additional'> Войти </Button>
                 </BlockFlex>

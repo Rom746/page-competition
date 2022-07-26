@@ -17,16 +17,16 @@ const Plan: FC = () => {
 
   return (
     <section className='plan'>
-      <div className="plan__container">
-        <h2 className="plan__title">
+      <div className='plan__container'>
+        <h2 className='plan__title'>
           Пошаговый {<AccentTitle type='plan'> план</AccentTitle>}
         </h2>
-        <div className="plan__content">
-          <img className={join('plan__plane', '', viewed)} src={images.planePlan} alt="plane" />
-          <div className="plan__line">
-            <img src={images.linePlan} alt="line"/>
+        <div className='plan__content'>
+          <img className={join('plan__plane', '', viewed)} src={images.planePlan} alt='plane' />
+          <div className='plan__line'>
+            <img src={images.linePlan} alt='line'/>
           </div>
-          <div className="plan__items">
+          <div className='plan__items'>
             <PlanItem className={viewed} value={1}>
               {'Зарегистрируйтесь на конкурс '}
               <AccentLink src='/' type='main-primary'>Здесь</AccentLink>

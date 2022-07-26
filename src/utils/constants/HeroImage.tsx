@@ -11,7 +11,7 @@ export const IconHeroSpace = () => {
       height='696'
       fill='none'
       viewBox='0 0 882 696'
-      className="space__svg"
+      className='space__svg'
     >
       <g className='space__ball space_item'>
         <ellipse
@@ -625,7 +625,7 @@ export const IconHeroSpace = () => {
       </g>
       <mask
         id='mask0_0_413'
-        style={{ maskType: "alpha" }}
+        style={{ maskType: 'alpha' }}
         width='114'
         height='45'
         x='737'

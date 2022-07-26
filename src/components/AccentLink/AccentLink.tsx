@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { IChild } from 'utils/constants/types';
 import join from 'utils/joinClasses';
 import './AccentLink.scss';

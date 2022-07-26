@@ -1,3 +1,3 @@
-import DotButton from "./DotButton";
+import DotButton from './DotButton';
 
 export default DotButton;

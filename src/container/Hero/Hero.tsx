@@ -11,8 +11,8 @@ import HeroImagesBg from './HeroImagesBg';
 const Hero: FC = () => {
   return (
     <section className='hero'>
-      <BlockFlex className="hero__container">
-        <div className="hero__content">
+      <BlockFlex className='hero__container'>
+        <div className='hero__content'>
           <Paragraph className='hero__caption' type='caption'> От компании СлонУМ </Paragraph>
           <h1 className='hero__title'>Всероссийский конкурс Детского рисунка</h1>
           <Paragraph className='hero__text' type='primary'>
@@ -23,7 +23,7 @@ const Hero: FC = () => {
             <Timer/>
           </BlockFlex>
         </div>
-        <div className="hero__image">
+        <div className='hero__image'>
           <HeroImagesBg />
         </div>
       </BlockFlex>

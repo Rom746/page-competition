@@ -5,8 +5,8 @@ import './Logo.scss'
 const Logo: FC = () => {
    return (
        <a className='logo' href='/'>
-            <img className='logo__image' src={images.logo} alt="logo" />
-            <p className="logo__title">
+            <img className='logo__image' src={images.logo} alt='logo' />
+            <p className='logo__title'>
                 Слон <span>УМ</span>
             </p>
        </a>

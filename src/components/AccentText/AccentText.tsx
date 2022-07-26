@@ -1,9 +1,10 @@
-import React, { FC } from 'react';
-import join from 'utils/joinClasses';
-import './AccentText.scss'
+import { FC } from 'react';
 import { IChild } from 'utils/constants/types';
+import join from 'utils/joinClasses';
+import './AccentText.scss';
 
-interface AccentTextProps extends IChild{
+
+interface AccentTextProps extends IChild {
   type?: 'primary' | 'secondary';
 }
 

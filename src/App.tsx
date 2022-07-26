@@ -13,7 +13,7 @@ import Footer from 'container/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
       <Hero />
       <About />

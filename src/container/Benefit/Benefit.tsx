@@ -32,8 +32,8 @@ const Benefit: FC = () => {
 
   return (
     <section className='benefit'>
-      <div className="benefit__container">
-        <h2 className="benefit__title">
+      <div className='benefit__container'>
+        <h2 className='benefit__title'>
           Для чего {<AccentTitle type='need'>нужно</AccentTitle>} участвовать
         </h2>
         <BlockFlex className='benefit__items'>

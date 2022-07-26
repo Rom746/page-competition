@@ -13,7 +13,7 @@ const CheckBox: FC<CheckBoxProps> = ({ children, type, className}) => {
   const joinType: any = 'additional-' + type;
   return (
     <div className={join('checkbox', className)}>
-      <input type="checkbox"
+      <input type='checkbox'
         name={index}
         className='checkbox__input'
       />

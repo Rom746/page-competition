@@ -11,7 +11,7 @@ const FaqItem: FC<IChild> = ({children}) => {
     <BlockFlex className='faq__item'>
       <Paragraph type='tetriary'>{children}</Paragraph>
       <DotButton>
-        <img src={images.btnOpen} alt="icon" />
+        <img src={images.btnOpen} alt='icon' />
       </DotButton>
     </BlockFlex>
   );

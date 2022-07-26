@@ -4,10 +4,10 @@ const NavBar: FC = () => {
   const links = ['Главная', 'Личный кабинет', 'Контакты', 'Конфиденциальность'];
   return (
     <nav className='navbar'>
-      <ul className="navbar__links">
+      <ul className='navbar__links'>
         {links.map((item) => (
           <li key={item}>
-            <a href='/' className="navbar__link">
+            <a href='/' className='navbar__link'>
               {item}
             </a>
           </li>

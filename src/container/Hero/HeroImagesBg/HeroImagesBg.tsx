@@ -4,9 +4,9 @@ import { IconHeroSpace, IconHeroGirl, IconHeroSpaceBg } from 'utils/constants/He
 
 const HeroImagesBg: FC = () => {
   return (
-    <div className="hero-image">
+    <div className='hero-image'>
       <div className='space'>
-        <img className='space__bg' src={IconHeroSpaceBg} alt="space" />
+        <img className='space__bg' src={IconHeroSpaceBg} alt='space' />
         {IconHeroSpace()}
       </div>
       <div className='girl'>

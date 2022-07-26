@@ -1,3 +1,3 @@
-import AccentTitle from "./AccentTitle";
+import AccentTitle from './AccentTitle';
 
 export default AccentTitle;

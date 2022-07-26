@@ -1,3 +1,3 @@
-import HeroImagesBg from "./HeroImagesBg";
+import HeroImagesBg from './HeroImagesBg';
 
 export default HeroImagesBg;

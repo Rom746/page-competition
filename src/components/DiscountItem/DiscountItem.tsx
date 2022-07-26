@@ -9,7 +9,7 @@ const DiscountItem: FC = () => {
   return (
     <div className='discount'>
       <div className='discount__head'>
-        <img src={images.headDiscount} alt="head discount" />
+        <img src={images.headDiscount} alt='head discount' />
         <p>Скидка за репост</p>
       </div>
       <div className='discount__body'>
