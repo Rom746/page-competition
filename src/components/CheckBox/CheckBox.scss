@@ -22,10 +22,6 @@
     letter-spacing: 0.04em;
     user-select: none;
 
-    & p {
-      padding-top: 2px;
-    }
-
     &::before {
       content: '';
       flex: 0 0 auto;
@@ -43,6 +39,18 @@
       background-repeat: no-repeat;
       background-position: center center;
       background-size: 50% 50%;
+    }
+  }
+
+  &__text {
+    padding-top: 2px;
+
+    &--primary {
+      color: var(--primaryCheckColor);
+    }
+
+    &--secondary {
+      color: var(--secondaryCheckColor);
     }
   }
 }

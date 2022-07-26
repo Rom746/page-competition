@@ -20,7 +20,7 @@ const CheckBox: FC<CheckBoxProps> = ({ children, type, className}) => {
       <label htmlFor={index} className='checkbox__label'>
         {
           children ? children : (
-            <p>
+            <p className={join('checkbox__text','', type)}>
               {'Отправляя данные я соглашаюсь с '}
               <AccentLink src='/' type={joinType}>
                 Условиями конкурса

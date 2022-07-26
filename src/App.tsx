@@ -7,6 +7,7 @@ import Certificate from 'container/Certificate';
 import './style/App.scss';
 import Registration from 'container/Registration';
 import Faq from 'container/Faq';
+import Newsletter from 'container/Newsletter';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Certificate />
       <Registration />
       <Faq />
+      <Newsletter />
     </div>
   );
 }
