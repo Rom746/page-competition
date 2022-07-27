@@ -7,6 +7,10 @@
   line-height: 27px;
   letter-spacing: 0.03em;
 
+  &__container {
+    position: relative;
+  }
+
   &__menu {
     padding-bottom: 27px;
     justify-content: flex-start;

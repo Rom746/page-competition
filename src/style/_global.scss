@@ -1,11 +1,11 @@
 body {
-    font-family: var(--baseFont);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.009em;
-    color: var(--primaryColor);
+  font-family: var(--baseFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.009em;
+  color: var(--primaryColor);
 }
 
 .App {
@@ -13,26 +13,26 @@ body {
 }
 
 [class*='__container'] {
-    max-width: 1425px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 1425px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 h1 {
-    font-size: 55px;
-    line-height: 67px;
+  font-size: 55px;
+  line-height: 67px;
 }
 
 h2 {
-    font-size: 32px;
-    line-height: 44px;
-    text-align: center;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
 }
 
 h1,
 h2 {
-    font-family: var(--headersFont);
-    font-weight: 700;
-    color: var(--secondaryColor);
+  font-family: var(--headersFont);
+  font-weight: 700;
+  color: var(--secondaryColor);
 }

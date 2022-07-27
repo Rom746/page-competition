@@ -18,6 +18,7 @@ import linkVk from 'assets/link-vk.svg';
 import linkOk from 'assets/link-ok.svg';
 import linkTg from 'assets/link-tg.svg';
 import linkDz from 'assets/link-dz.svg';
+import arrowUp from 'assets/arrow-up.svg';
 
 const images = {
   logo,
@@ -45,7 +46,8 @@ const images = {
     dz: linkDz,
     tg: linkTg
   },
-  planePlan
+  planePlan,
+  arrowUp
 }
 
 export default images;
