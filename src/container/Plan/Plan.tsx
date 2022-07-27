@@ -1,11 +1,11 @@
+import { FC, useRef, useState } from 'react';
 import AccentLink from 'components/AccentLink';
 import AccentTitle from 'components/AccentTitle';
-import React, { FC, useRef, useState } from 'react';
 import PlanItem from './PlanItem';
-import images from 'utils/constants/images';
-import './Plan.scss';
 import { useObserver } from 'utils/useObserver';
+import images from 'utils/constants/images';
 import join from 'utils/joinClasses';
+import './Plan.scss';
 
 const Plan: FC = () => {
   const ref = useRef<any>();
@@ -24,7 +24,7 @@ const Plan: FC = () => {
         <div className='plan__content'>
           <img className={join('plan__plane', '', viewed)} src={images.planePlan} alt='plane' />
           <div className='plan__line'>
-            <img src={images.linePlan} alt='line'/>
+            <img src={images.linePlan} alt='line' />
           </div>
           <div className='plan__items'>
             <PlanItem className={viewed} value={1}>

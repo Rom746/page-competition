@@ -1,3 +1,3 @@
-import BlockFlex from "./BlockFlex";
+import BlockFlex from './BlockFlex';
 
 export default BlockFlex;

@@ -1,25 +1,25 @@
 .newsletter {
+  min-height: 373px;
   background-image: url('../../assets/newsletter-bg.svg');
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 373px;
 
   &__inner {
-    padding: 30px 0 67px 0;
     max-width: 930px;
+    padding: 30px 0 67px 0;
     margin: auto;
   }
 
   &__title,
   &__text {
-    color: var(--white);
     padding-bottom: 20px;
+    color: var(--white);
   }
 
   &__text {
     max-width: 410px;
-    text-align: center;
     margin: auto;
+    text-align: center;
   }
 
   &__form {
@@ -28,10 +28,11 @@
   }
 
   &__form-row {
-    gap: 30px;
-    justify-content: flex-start;
     padding-bottom: 20px;
+    justify-content: flex-start;
+    gap: 30px;
   }
+
   &__button {
     max-width: 360px;
     width: 100%;

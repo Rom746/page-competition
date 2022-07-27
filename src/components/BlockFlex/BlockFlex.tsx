@@ -1,10 +1,12 @@
-import { IChildClass } from 'utils/constants/types';
 import { FC } from 'react';
+import { IChildClass } from 'utils/constants/types';
+import join from 'utils/joinClasses';
 import './BlockFlex.scss';
+
 
 const BlockFlex: FC<IChildClass> = ({ children, className }) => {
   return (
-    <div className={'block-flex ' + (className || '')}>
+    <div className={join('block-flex', className)}>
       {children}
     </div>
   );

@@ -1,9 +1,8 @@
-import React, { FC } from 'react';
-import './Faq.scss'
+import { FC } from 'react';
 import FaqItem from './FaqItem';
+import './Faq.scss';
 
 const Faq: FC = () => {
-
   const questions = [
     'Может ли ребёнок заниматься самостоятельно?',
     'Как происходит оплата?',
@@ -11,14 +10,16 @@ const Faq: FC = () => {
     'С кем будет общаться мой ребёнок?',
     'Каковы принципы обучения?',
     'Сколько раз в неделю можно заниматься?'
-  ]
+  ];
 
   return (
     <section className='faq'>
       <div className='faq__container'>
         <h2 className='faq__title'>Вопрос/Ответ</h2>
         <div className='faq__items'>
-          {questions.map(question => <FaqItem key={question}>{question}</FaqItem>)}
+          {questions.map(question =>
+            <FaqItem key={question}>{question}</FaqItem>
+          )}
         </div>
       </div>
     </section>

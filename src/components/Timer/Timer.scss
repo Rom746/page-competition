@@ -1,6 +1,6 @@
 .timer {
-  gap: 10px;
   align-items: flex-start;
+  gap: 10px;
 
   font-family: var(--headersFont);
   color: var(--secondaryColor);
@@ -24,19 +24,19 @@
 
   &__value {
     padding: 11px 15.5px;
+    border-radius: 16px;
     background-color: var(--white);
     box-shadow: 0px 5px 30px var(--primaryShadowColor);
-    border-radius: 16px;
 
-    font-weight: 700;
     font-size: 32px;
+    font-weight: 700;
     line-height: 38px;
     color: var(--secondaryAccentColor);
   }
 
   &__caption {
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
     line-height: 22px;
     text-align: center;
 
@@ -56,6 +56,7 @@
   33% {
     opacity: 1;
   }
+
   100% {
     opacity: 1;
   }

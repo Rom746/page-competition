@@ -1,5 +1,4 @@
 .registration {
-
   padding-bottom: 200px;
 
   &__container {
@@ -11,9 +10,9 @@
   }
 
   &__inputs {
+    padding-bottom: 50px;
     flex-direction: column;
     gap: 20px;
-    padding-bottom: 50px;
   }
 
   &__check {

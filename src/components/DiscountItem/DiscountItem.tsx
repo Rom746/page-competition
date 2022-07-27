@@ -1,23 +1,23 @@
+import { FC } from 'react';
 import BlockFlex from 'components/BlockFlex';
 import Paragraph from 'components/Paragraph';
 import SocialLink from 'components/SocialLink';
-import React, { FC } from 'react';
-import images from 'utils/constants/images'
+import images from 'utils/constants/images';
 import './DiscountItem.scss';
 
 const DiscountItem: FC = () => {
   return (
     <div className='discount'>
       <div className='discount__head'>
-        <img src={images.headDiscount} alt='head discount' />
+        <img src={images.headDiscount} alt='head discount'/>
         <p>Скидка за репост</p>
       </div>
       <div className='discount__body'>
         <Paragraph type='tetriary'>
-          Стоимость участия:
+          {'Стоимость участия:'}
         </Paragraph>
         <BlockFlex className='discount__price'>
-          149₽
+          {'149₽'}
           <span>299₽</span>
         </BlockFlex>
         <Paragraph type='tetriary'>

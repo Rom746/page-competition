@@ -1,6 +1,6 @@
-import Paragraph from 'components/Paragraph';
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { IChild } from 'utils/constants/types';
+import Paragraph from 'components/Paragraph';
 
 interface BenefitItemProps extends IChild {
   src: string;

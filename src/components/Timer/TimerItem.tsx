@@ -1,6 +1,6 @@
-import BlockFlex from 'components/BlockFlex';
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { IChild } from 'utils/constants/types';
+import BlockFlex from 'components/BlockFlex';
 
 interface TimerItemProps extends IChild {
   value: string;
@@ -13,7 +13,7 @@ const TimerItem: FC<TimerItemProps> = ({ children, caption, value }) => {
       <p className='timer__value'>{value}</p>
       <p className='timer__caption'>
         {caption}
-        {children && <span> {children} </span> }
+        {children && <span>{children}</span>}
       </p>
     </BlockFlex>
   );

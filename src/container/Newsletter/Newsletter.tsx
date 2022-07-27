@@ -1,9 +1,9 @@
+import { FC } from 'react';
 import BlockFlex from 'components/BlockFlex';
 import Button from 'components/Button';
 import CheckBox from 'components/CheckBox';
 import Input from 'components/Input';
 import Paragraph from 'components/Paragraph';
-import React, { FC } from 'react';
 import './Newsletter.scss';
 
 const Newsletter: FC = () => {

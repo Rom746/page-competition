@@ -1,9 +1,9 @@
+import { FC } from 'react';
 import BlockFlex from 'components/BlockFlex';
 import NavBar from 'components/NavBar';
 import Paragraph from 'components/Paragraph';
-import React, { FC } from 'react';
-import './Footer.scss';
 import SocialItem from './SocialItem';
+import './Footer.scss';
 
 const Footer: FC = () => {
   return (

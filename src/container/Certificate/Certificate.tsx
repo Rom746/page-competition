@@ -1,7 +1,7 @@
+import { FC } from 'react';
 import AccentTitle from 'components/AccentTitle';
 import BlockFlex from 'components/BlockFlex';
 import Paragraph from 'components/Paragraph';
-import React, { FC } from 'react';
 import images from 'utils/constants/images';
 import './Certificate.scss';
 

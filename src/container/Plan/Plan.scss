@@ -1,7 +1,7 @@
 .plan {
-  background-image: url('../../assets/sky-bg.svg');
   padding-top: 40px;
   padding-bottom: 206px;
+  background-image: url('../../assets/sky-bg.svg');
 
   &__title {
     padding-bottom: 87px;
@@ -15,9 +15,9 @@
 
   &__item {
     max-width: 345px;
-    gap: 40px;
-    align-items: flex-start;
     position: absolute;
+    align-items: flex-start;
+    gap: 40px;
     opacity: 0;
 
     &:nth-child(1) {
@@ -33,9 +33,9 @@
     }
 
     &:nth-child(3) {
+      max-width: 388px;
       top: 419px;
       left: 971px;
-      max-width: 388px;
       animation-delay: 1.8s;
     }
 
@@ -48,12 +48,13 @@
   }
 
   &__dot {
-    flex-shrink: 0;
-    justify-content: center;
     width: 80px;
     height: 80px;
+    flex-shrink: 0;
+    justify-content: center;
     border-radius: 50%;
     background-color: var(--secondaryAccentColor);
+
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;

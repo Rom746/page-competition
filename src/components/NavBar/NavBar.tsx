@@ -1,5 +1,6 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import './NavBar.scss';
+
 const NavBar: FC = () => {
   const links = ['Главная', 'Личный кабинет', 'Контакты', 'Конфиденциальность'];
   return (

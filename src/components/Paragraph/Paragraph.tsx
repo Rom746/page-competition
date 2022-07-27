@@ -1,7 +1,7 @@
+import { FC } from 'react';
 import { IChildClass } from 'utils/constants/types';
-import React, { FC } from 'react';
 import join from 'utils/joinClasses';
-import './Paragraph.scss'
+import './Paragraph.scss';
 
 interface ParagraphProps extends IChildClass {
   type?: 'caption' | 'primary' | 'secondary' | 'tetriary';

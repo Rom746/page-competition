@@ -1,4 +1,5 @@
 .discount {
+  position: relative;
   border: 3px solid var(--primaryAccentColor);
   box-shadow: 0px 5px 15px var(--primaryButtonShadow);
   border-radius: 40px;
@@ -10,12 +11,11 @@
   letter-spacing: 0.04em;
   color: var(--white);
 
-  position: relative;
-
   &__head {
     position: absolute;
     top: -16px;
     left: 104px;
+
     & p {
       position: absolute;
       top: 21px;
@@ -25,24 +25,25 @@
 
   &__body {
     padding: 136px 60px 40px 60px;
+
     & p {
       letter-spacing: 0.05em;
     }
   }
 
   &__price {
-    gap: 17px;
+    margin: 30px 0;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 30px 0;
+    gap: 17px;
 
     font-size: 96px;
     line-height: 114px;
-    color: var( --black);;
+    color: var(--black);
 
     & span {
-      position: relative;
       padding-top: 16px;
+      position: relative;
 
       font-weight: 600;
       font-size: 30px;

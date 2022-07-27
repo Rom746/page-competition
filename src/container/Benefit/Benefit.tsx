@@ -1,10 +1,10 @@
+import { FC } from 'react';
 import AccentTitle from 'components/AccentTitle';
 import BlockFlex from 'components/BlockFlex';
-import React, { FC } from 'react';
-import './Benefit.scss';
 import BenefitItem from './BenefitItem';
-import images from 'utils/constants/images'
 import AccentLink from 'components/AccentLink';
+import images from 'utils/constants/images'
+import './Benefit.scss';
 
 const Benefit: FC = () => {
   const benefits = [

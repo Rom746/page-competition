@@ -20,12 +20,13 @@
 
 @keyframes loadButton {
   0% {
-    background-color: var(--secondaryAccentColor);
     border: 1px solid var(--secondaryAccentColor);
+    background-color: var(--secondaryAccentColor);
   }
+
   100% {
     color: var(--secondaryColor);
-    background-color: var(--white);
     border: 1px solid var(--secondaryColor);
+    background-color: var(--white);
   }
 }
