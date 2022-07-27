@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/page-competition/static/css/main.3592d377.css",
+    "main.js": "/page-competition/static/js/main.bc040b9e.js",
+    "static/media/benefist-gift.svg": "/page-competition/static/media/benefist-gift.64598c5779c64881315de95c17d8a5eb.svg",
+    "static/media/newsletter-bg.svg": "/page-competition/static/media/newsletter-bg.5b6af44f5c6080025eb3.svg",
+    "static/media/benefist-vk.svg": "/page-competition/static/media/benefist-vk.248f1403bccbf3dbd9ae817824bd330a.svg",
+    "static/media/benefist-certification.svg": "/page-competition/static/media/benefist-certification.ba4a8860db5af0ea9f81b7d85e8c92a3.svg",
+    "static/media/certificate.png": "/page-competition/static/media/certificate.9250209978e9e1097669.png",
+    "static/media/benefist-email.svg": "/page-competition/static/media/benefist-email.8ab5a1268929b9fbe98d5b7382b5c971.svg",
+    "static/media/benefist-star.svg": "/page-competition/static/media/benefist-star.8306fb72b6be4c58c6dfd45d12de72ce.svg",
+    "static/media/benefist-winne.svg": "/page-competition/static/media/benefist-winne.85a4db9ce2a6fbc06d0029bd915a3b14.svg",
+    "static/media/sky-bg.svg": "/page-competition/static/media/sky-bg.ff5ee1716eca182d3078.svg",
+    "static/media/planes.svg": "/page-competition/static/media/planes.05b84c80fe06025992cdee5f2f4c3e8f.svg",
+    "static/media/waves-bg-tw.svg": "/page-competition/static/media/waves-bg-tw.2cde4d39af4109d0985d.svg",
+    "static/media/waves-bg.svg": "/page-competition/static/media/waves-bg.6da3514b47c8b1550f1f.svg",
+    "static/media/line-plan-bg.svg": "/page-competition/static/media/line-plan-bg.3dc739daeeaf8b79dbfe5fc261cb7b1c.svg",
+    "static/media/logo.svg": "/page-competition/static/media/logo.bd33397094b6f84c61d965e1f59f78bf.svg",
+    "static/media/plane-plan.svg": "/page-competition/static/media/plane-plan.6b419ffef0116a4bf9cfcf9306288b43.svg",
+    "static/media/link-ok.svg": "/page-competition/static/media/link-ok.2ee661b7ff2a9aca084861c08013d43e.svg",
+    "static/media/link-vk.svg": "/page-competition/static/media/link-vk.9781ece097dd49e10bb5dff4474cfc23.svg",
+    "static/media/link-tg.svg": "/page-competition/static/media/link-tg.24b0589d9015522ace4396dc05dabeaf.svg",
+    "static/media/link-dz.svg": "/page-competition/static/media/link-dz.c7db2dc7645e12c1bdfac59416554436.svg",
+    "static/media/line-diplom.svg": "/page-competition/static/media/line-diplom.4ccab75af475562c34c81c3cc1866200.svg",
+    "static/media/line-need.svg": "/page-competition/static/media/line-need.85d3c37e2af246929a0aaa98b1ae4563.svg",
+    "static/media/line-plan.svg": "/page-competition/static/media/line-plan.bd3d542b61ba87469c2bb46e1321433d.svg",
+    "static/media/space-bg.svg": "/page-competition/static/media/space-bg.aa80dee5247c89568e7435ef6560a0fb.svg",
+    "index.html": "/page-competition/index.html",
+    "static/media/open-btn.svg": "/page-competition/static/media/open-btn.82f129615f478a6e72835612f4f593c6.svg",
+    "static/media/head-discount.svg": "/page-competition/static/media/head-discount.4c244b67006b275459f9d117ba37f650.svg",
+    "static/media/arrow-up.svg": "/page-competition/static/media/arrow-up.ee6569b94d1086c7f1a15a0db967b4e8.svg",
+    "static/media/checkbox.svg": "/page-competition/static/media/checkbox.8a15a5fb5b5b006a5272.svg",
+    "main.3592d377.css.map": "/page-competition/static/css/main.3592d377.css.map",
+    "main.bc040b9e.js.map": "/page-competition/static/js/main.bc040b9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3592d377.css",
+    "static/js/main.bc040b9e.js"
+  ]
+}
