@@ -21,7 +21,7 @@ const FormRegistration: FC = () => {
       <CheckBox type='primary' className='registration__check' />
       <BlockFlex className='registration__buttons'>
         <Button className='registration__button' type='main-secondary'>
-          Учавствовать
+          Участвовать
         </Button>
         <ImagePlanesAnimate />
       </BlockFlex>

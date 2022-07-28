@@ -18,12 +18,12 @@ const Hero: FC = () => {
             Всероссийский конкурс Детского рисунка
           </h1>
           <Paragraph className='hero__text' type='primary'>
-            Учавствуйте в конкурсе и получайте призы в различных
+            Участвуйте в конкурсе и получайте призы в различных
             номинациях детского рисунка для всех возрастов
           </Paragraph>
           <BlockFlex className='hero__inner'>
             <Button className='hero__btn' type='main-primary'>
-              Учавствовать
+              Участвовать
             </Button>
             <Timer />
           </BlockFlex>
