@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Демо: [Create React App](https://rom746.github.io/page-competition/).
 
 ## Available Scripts
 
