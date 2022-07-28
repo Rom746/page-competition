@@ -36,14 +36,11 @@
       max-width: 388px;
       top: 419px;
       left: 971px;
-      animation-delay: 1.8s;
+      animation-delay: 1.4s;
     }
 
     &--animate {
-      animation-name: item-opacity;
-      animation-fill-mode: both;
-      animation-timing-function: linear;
-      animation-duration: 1s;
+      animation: 1s linear both item-opacity;
     }
   }
 
@@ -68,10 +65,7 @@
     opacity: 0;
 
     &--animate {
-      animation-name: plane;
-      animation-duration: 2s;
-      animation-fill-mode: both;
-      animation-timing-function: linear;
+      animation: 2s linear both plane;
     }
   }
 }
@@ -92,16 +86,8 @@
     transform: translate(-68px, -31px) rotate(5deg);
   }
 
-  15% {
-    transform: translate(119px, 16px) rotate(10deg);
-  }
-
   30% {
-    transform: translate(119px, 16px) rotate(20deg);
-  }
-
-  45% {
-    transform: translate(546px, 224px) rotate(25deg);
+    transform: translate(130px, 10px) rotate(20deg);
   }
 
   60% {

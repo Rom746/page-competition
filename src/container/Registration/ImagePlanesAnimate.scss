@@ -1,0 +1,83 @@
+.planes-image {
+  width: 170px;
+  height: 90px;
+  position: relative;
+
+  &__plane {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    & img {
+      transform: scale(-1, 1);
+    }
+
+    &--animate {
+      opacity: 1;
+      animation: .8s linear both plane-fly, .8s cubic-bezier(0.25, 1, 0.5, 1) .8s forwards plane-collision;
+    }
+
+    @keyframes plane-fly {
+      0% {
+        transform: translate(411px, -137px) rotate(-38deg);
+      }
+
+      70% {
+        transform: translate(243px, -44px) rotate(-18deg);
+      }
+
+      100% {
+        transform: translate(160px, -15px) rotate(0deg);
+      }
+    }
+
+    @keyframes plane-collision {
+      0% {
+        transform: translate(160px, -15px) rotate(0deg);
+      }
+
+      90% {
+        transform: translate(-10px, 5px) rotate(29deg);
+      }
+
+      100% {
+        transform: translate(0px, 5px) rotate(29deg);
+      }
+    }
+  }
+
+  &__svg {
+    overflow: visible;
+  }
+
+  &__back,
+  &__front {
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+  }
+}
+
+.animate {
+  &__back-plane {
+    animation: .8s cubic-bezier(0.25, 1, 0.5, 1) .8s forwards back-collision;
+
+    @keyframes back-collision {
+
+      100% {
+        transform: translate(-15px, 0px) rotate(9deg);
+      }
+    }
+  }
+
+  &__front-plane {
+    animation: .8s cubic-bezier(0.25, 1, 0.5, 1) .8s forwards front-collision;
+
+    @keyframes front-collision {
+
+      100% {
+        transform: translate(-40px, 8px) rotate(0deg);
+      }
+    }
+  }
+}

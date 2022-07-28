@@ -1,6 +1,6 @@
-import React, { FC } from 'react';
-import './HeroImagesBg.scss'
-import { IconHeroSpace, IconHeroGirl, IconHeroSpaceBg } from 'utils/constants/HeroImage';
+import { FC } from 'react';
+import { IconHeroSpace, IconHeroGirl, IconHeroSpaceBg } from 'utils/constants/AnimatedSvg';
+import './HeroImagesBg.scss';
 
 const HeroImagesBg: FC = () => {
   return (

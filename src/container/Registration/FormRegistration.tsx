@@ -3,7 +3,7 @@ import BlockFlex from 'components/BlockFlex';
 import Button from 'components/Button';
 import Input from 'components/Input';
 import CheckBox from 'components/CheckBox';
-import images from 'utils/constants/images';
+import ImagePlanesAnimate from './ImagePlanesAnimate';
 
 const FormRegistration: FC = () => {
   return (
@@ -23,7 +23,7 @@ const FormRegistration: FC = () => {
         <Button className='registration__button' type='main-secondary'>
           Учавствовать
         </Button>
-        <img src={images.planes} alt='Planes' />
+        <ImagePlanesAnimate />
       </BlockFlex>
     </form>
   );
