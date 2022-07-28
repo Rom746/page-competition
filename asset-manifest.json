@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/page-competition/static/css/main.f9c263f2.css",
+    "main.css": "/page-competition/static/css/main.618a9598.css",
     "main.js": "/page-competition/static/js/main.4d7ab977.js",
     "static/media/benefist-gift.svg": "/page-competition/static/media/benefist-gift.64598c5779c64881315de95c17d8a5eb.svg",
     "static/media/newsletter-bg.svg": "/page-competition/static/media/newsletter-bg.5b6af44f5c6080025eb3.svg",
@@ -30,11 +30,11 @@
     "static/media/head-discount.svg": "/page-competition/static/media/head-discount.4c244b67006b275459f9d117ba37f650.svg",
     "static/media/arrow-up.svg": "/page-competition/static/media/arrow-up.ee6569b94d1086c7f1a15a0db967b4e8.svg",
     "static/media/checkbox.svg": "/page-competition/static/media/checkbox.8a15a5fb5b5b006a5272.svg",
-    "main.f9c263f2.css.map": "/page-competition/static/css/main.f9c263f2.css.map",
+    "main.618a9598.css.map": "/page-competition/static/css/main.618a9598.css.map",
     "main.4d7ab977.js.map": "/page-competition/static/js/main.4d7ab977.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9c263f2.css",
+    "static/css/main.618a9598.css",
     "static/js/main.4d7ab977.js"
   ]
 }
