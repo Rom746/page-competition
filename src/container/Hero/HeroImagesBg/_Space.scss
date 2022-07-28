@@ -1,9 +1,21 @@
+$delay: 1.5s;
+
 .space {
-  animation-name: spaceAnimate;
-  animation-duration: 1.5s;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
-  animation-delay: 0.5s;
+  animation: 2s linear both spaceAnimate;
+
+  @keyframes spaceAnimate {
+    0% {
+      opacity: 0;
+    }
+
+    25% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
 
   &__svg {
     position: absolute;
@@ -17,181 +29,235 @@
     z-index: -1;
   }
 
-  &_item {
-    animation-duration: .7s;
-    animation-fill-mode: both;
-    animation-direction: alternate;
-    // animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-delay: 2s;
-
+  &__box {
     transform-box: fill-box;
     transform-origin: 50% 50%;
   }
 
-  &__rocket {
-    animation-name: rocketAnimate;
-  }
 
-  &__ball {
-    animation-name: ballAnimate;
-  }
+  &__elephant {
+    animation: 12s linear $delay infinite alternate both elephantAnimate;
 
-  &__plus {
-    animation-name: plusAnimate;
-  }
+    @keyframes elephantAnimate {
+      0% {
+        transform: rotate(0deg) translate(0, 0);
+      }
 
-  &__div {
-    animation-name: divAnimate;
-  }
-
-  &__frame {
-    animation-name: frameAnimate;
-  }
-
-  &__planet {
-    animation-name: planetAnimate;
-  }
-
-  &__planetLine {
-    animation-name: planetLineAnimate;
-  }
-
-  &__planetBig {
-    animation-name: planetBigAnimate;
+      50% {
+        transform: rotate(41deg) translate(10px, 0);
+      }
+    }
   }
 
   &__lamp {
-    animation-name: lampAnimate;
+    animation: 12s linear $delay infinite both lampAnimate;
+
+    @keyframes lampAnimate {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      10.8% {
+        transform: rotate(0deg);
+      }
+
+      40% {
+        transform: rotate(40deg);
+      }
+
+      69.2% {
+        transform: rotate(-5deg);
+      }
+
+      85.8% {
+        transform: rotate(-25deg);
+      }
+
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+  }
+
+  &__rocket {
+    animation: 12s ease-out $delay infinite both rocketAnimate;
+
+    @keyframes rocketAnimate {
+      0% {
+        transform: translatey(70px);
+      }
+
+      66% {
+        transform: translatey(0px);
+      }
+
+      100% {
+        transform: translatey(70px);
+      }
+    }
   }
 
   &__clock {
-    animation-name: clockAnimate;
-    animation-direction: normal;
-  }
+    animation: 12s linear $delay infinite both clockAnimate;
 
-  &__elephant {
-    animation-name: elephantAnimate;
+    @keyframes clockAnimate {
+      0% {
+        transform: rotate(0deg) scale(0.7);
+      }
+
+      60% {
+        transform: rotate(-216deg) scale(1);
+      }
+
+      70% {
+        transform: rotate(-252deg) scale(1);
+      }
+
+      100% {
+        transform: rotate(-360deg) scale(0.7);
+      }
+    }
   }
 
   &__plane {
-    animation-name: planeAnimate;
+    animation: 12s linear $delay infinite both planeAnimate;
+
+    @keyframes planeAnimate {
+      0% {
+        transform: rotate(45deg) scale(0.5);
+      }
+
+      50% {
+        transform: rotate(0deg) scale(1);
+      }
+
+      100% {
+        transform: rotate(45deg) scale(0.5);
+      }
+    }
+  }
+
+  /*  ---------------------------------------------------------------- */
+
+
+  &__ball {
+    animation: 12s linear $delay infinite alternate both ballAnimate;
+
+    @keyframes ballAnimate {
+      0% {
+        transform: translatey(-60px);
+      }
+    }
+  }
+
+  &__plus {
+    animation: 12s ease-in-out $delay infinite both plusAnimate;
+
+    @keyframes plusAnimate {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+
+      50% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+
+      90% {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scale(1.1);
+        opacity: 0;
+      }
+    }
+  }
+
+  &__div {
+    animation: 12s ease-out $delay infinite both divAnimate;
+
+    @keyframes divAnimate {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+
+      40% {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      50% {
+        transform: scale(1);
+        opacity: 0;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 0;
+      }
+    }
+  }
+
+  &__frame {
+    animation: 12s linear $delay infinite alternate both frameAnimate;
+
+    @keyframes frameAnimate {
+      0% {
+        transform: rotate(-40deg) scale(0.1);
+      }
+    }
+  }
+
+  &__planet {
+    animation: 12s linear $delay infinite alternate both planetAnimate;
+
+    @keyframes planetAnimate {
+      0% {
+        transform: rotate(45deg);
+      }
+    }
+  }
+
+  &__planetLine {
+    animation: 12s linear $delay infinite alternate both planetLineAnimate;
+
+
+    @keyframes planetLineAnimate {
+      0% {
+        transform: translateX(-20px);
+      }
+    }
+  }
+
+  &__planetBig {
+    animation: 12s linear $delay infinite alternate both planetBigAnimate;
+
+    @keyframes planetBigAnimate {
+      0% {
+        transform: translateX(-40px) translateY(30px);
+      }
+    }
   }
 
   &__paints {
-    animation-name: paintsAnimate;
-    animation-direction: normal;
-    animation-delay: 2s;
-  }
-}
+    animation: 12s ease $delay infinite normal both paintsAnimate;
 
+    @keyframes paintsAnimate {
+      0% {
+        transform: rotate(0deg);
+      }
 
+      16% {
+        transform: rotate(0deg);
+      }
 
-@keyframes spaceAnimate {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-
-@keyframes rocketAnimate {
-  0% {
-    transform: translatey(65px);
-  }
-}
-
-@keyframes ballAnimate {
-  0% {
-    transform: translatey(-60px);
-  }
-}
-
-@keyframes plusAnimate {
-  0% {
-    transform: scale(0.5);
-    opacity: 0;
-  }
-
-  70% {
-    transform: scale(1);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1.1);
-    opacity: 0;
-  }
-}
-
-@keyframes divAnimate {
-  0% {
-    transform: scale(0.5);
-    opacity: 0;
-  }
-}
-
-@keyframes frameAnimate {
-  0% {
-    transform: rotate(-40deg) scale(0.1);
-  }
-}
-
-@keyframes planetAnimate {
-  0% {
-    transform: rotate(45deg);
-  }
-}
-
-@keyframes planetLineAnimate {
-  0% {
-    transform: translateX(-20px);
-  }
-}
-
-@keyframes planetBigAnimate {
-  0% {
-    transform: translateX(-40px) translateY(30px);
-  }
-}
-
-@keyframes lampAnimate {
-  100% {
-    transform: rotate(-40deg);
-  }
-}
-
-@keyframes clockAnimate {
-  0% {
-    transform: rotate(0deg) scale(0.8);
-  }
-
-  50% {
-    transform: rotate(-180deg) scale(1);
-  }
-
-  100% {
-    transform: rotate(-360deg) scale(0.8);
-  }
-}
-
-@keyframes elephantAnimate {
-  100% {
-    transform: rotate(20deg);
-  }
-}
-
-@keyframes planeAnimate {
-  0% {
-    transform: rotate(45deg) scale(0.5);
-  }
-}
-
-@keyframes paintsAnimate {
-  100% {
-    transform: rotate(360deg);
+      100% {
+        transform: rotate(360deg);
+      }
+    }
   }
 }
