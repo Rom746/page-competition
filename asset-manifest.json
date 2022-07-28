@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/page-competition/static/css/main.3592d377.css",
-    "main.js": "/page-competition/static/js/main.bc040b9e.js",
+    "main.css": "/page-competition/static/css/main.545b1096.css",
+    "main.js": "/page-competition/static/js/main.7360209d.js",
     "static/media/benefist-gift.svg": "/page-competition/static/media/benefist-gift.64598c5779c64881315de95c17d8a5eb.svg",
     "static/media/newsletter-bg.svg": "/page-competition/static/media/newsletter-bg.5b6af44f5c6080025eb3.svg",
     "static/media/benefist-vk.svg": "/page-competition/static/media/benefist-vk.248f1403bccbf3dbd9ae817824bd330a.svg",
@@ -30,11 +30,11 @@
     "static/media/head-discount.svg": "/page-competition/static/media/head-discount.4c244b67006b275459f9d117ba37f650.svg",
     "static/media/arrow-up.svg": "/page-competition/static/media/arrow-up.ee6569b94d1086c7f1a15a0db967b4e8.svg",
     "static/media/checkbox.svg": "/page-competition/static/media/checkbox.8a15a5fb5b5b006a5272.svg",
-    "main.3592d377.css.map": "/page-competition/static/css/main.3592d377.css.map",
-    "main.bc040b9e.js.map": "/page-competition/static/js/main.bc040b9e.js.map"
+    "main.545b1096.css.map": "/page-competition/static/css/main.545b1096.css.map",
+    "main.7360209d.js.map": "/page-competition/static/js/main.7360209d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3592d377.css",
-    "static/js/main.bc040b9e.js"
+    "static/css/main.545b1096.css",
+    "static/js/main.7360209d.js"
   ]
 }
